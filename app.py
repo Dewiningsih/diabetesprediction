@@ -1,7 +1,9 @@
 import streamlit as st
 import numpy as np
 import joblib
+
 model = joblib.load('diabetes_model.pkl')
+
 st.title("Prediksi Diabetes")
  # Form input
 with st.form("form_diabetes"):
